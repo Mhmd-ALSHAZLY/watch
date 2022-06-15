@@ -1,0 +1,769 @@
+
+body{
+    margin: 0px;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #e4fbff;
+    background-size: 100% 100%;
+}
+.nav p{
+    font-family: fantasy;
+    display: inline-block;
+    margin-left: 3%;
+    color: #21119a;
+/*    font-size: 20px*/
+}
+.nav p i{
+    margin-right: 5px;
+    font-size: 25px
+}
+.nav ul i{
+    margin: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: inline-block;
+    width: 55%;
+    margin-left: 50px;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 4%;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid #120d91;
+    font-size: 20px;
+    transition: .5s;
+    margin-left: -13.5px
+}
+.nav ul li a{
+    color: #5454a8;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #120d8d;
+}
+.nav button{
+    background-color: #5454a8;
+    color: white;
+    width: 150px;
+    height: 32px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+    outline: none;
+}
+.nav button:hover{
+    background-color: #4e80e0;
+    cursor: pointer;
+}
+.nav button a{
+    color: gold;
+    text-decoration: none;
+}
+.nav .BTN2{
+    margin-right: 10px;
+}
+#part1{
+    position: relative;
+    height: 550px;
+    width: 100%;
+    background-color: #e4fbff;
+    background-size: 100% 100%;
+}
+#part1 .FORM{
+    position: absolute;
+/*    border: 1px solid black;*/
+    width: 300px;
+    height: 220px;
+    display: none;
+    left: 955px;
+    background-color: #eafbff;
+    text-align: center;
+    overflow: hidden;
+    border-bottom-right-radius: 250px;
+    border-bottom-LEFT-radius: 250px;
+}
+#part1 .FORM .Inp1{
+    border-style: none;
+    border-bottom: 2px solid black;
+    width: 200px;
+    height: 20px;
+    display: block;
+    margin-left: 45px;
+    margin-top: 10px;
+    outline: none;
+}
+#part1 .FORM .Inp2{
+    margin-left: -100px;
+    margin-top: 15px;
+    outline: none;
+}
+#part1 .FORM button{
+    display: block;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #5e40bf;
+    color: gold;
+}
+#part1 .victor{
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 590px
+}
+.child1{
+    position: absolute;
+    top: 20%;
+    left: 150px;
+    width: 330px;
+    height: 300px
+}
+.child1 h1{
+    color: #74640d;
+}
+.child1 b{
+    display: block;
+    margin-bottom: 15px;
+    color: #74640d;
+}
+.child1 input{
+    background-color: #b3e5ff;
+    border-style: none;
+    border-bottom: 2px solid black;
+    height: 25px;
+    width: 170px;
+    opacity: .8;
+    outline: none;
+    padding-left: 7px;
+    border-top-right-radius: 15px
+}
+.child1 input:active{
+    border-style: none;
+}
+.child1 button{
+    width: 25%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #4e4aaf;
+    color: gold
+}
+.child1 button:hover{
+    border-style: none;
+    background-color: #4e4aaf;
+    color: white;
+    cursor: pointer;
+}
+.Prand{
+/*    border: 1px solid black;*/
+    width: 100%;
+    height: 200px;
+    background-color: #b8b5ff;
+}
+.prand{
+    display: inline-block;
+    height: 100%;
+    width: 210px;
+/*    border: 1px solid black;*/
+    background-color: #b8b5ff;
+}
+.Prand #prand1{
+    background-image: url(watch/watch%205.png);
+    background-size: 100% 100%;
+}
+.Prand #prand2{
+    background-image: url(watch/watch%207.png);
+    background-size: 100% 100%;
+}
+.Prand #prand3{
+    background-image: url(watch/watch%208.png);
+    background-size: 100% 100%;
+}
+.Prand #prand4{
+    background-image: url(watch/watch%205.png);
+    background-size: 100% 100%;
+}
+.Prand #prand5{
+    background-image: url(watch/watch%207.png);
+    background-size: 100% 100%;
+}
+.Prand #prand6{
+    position: absolute;
+    background-color: #e4fbff;
+    text-align: center;
+    overflow: hidden;
+    height: 200px;
+    width: 234px
+}
+.Prand #prand6 p{
+    margin-top: 70px;
+    font-size: 50px;
+    
+}
+.part2{
+    position: relative;
+    height: 700px;
+/*    border: 1px solid black;*/
+    background-color: #b8b5ff;
+}
+.part2 .img{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 65%;
+    width: 20%;
+    top: 10%;
+    left: 10%;
+    background-image: url(watch/watch%208.png);
+    background-size: 100% 100%;
+/*    background-color: black;*/
+}
+.part2 .info{
+    position: absolute;
+    border: 1px solid black;
+    height: 30%;
+    width: 30%;
+    top: 60%;
+    left: 12%;
+    background-color: aliceblue
+}
+.part2 .info p{
+    margin-left: 20px;
+    margin-top: 30px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    background-color: #e3f2ff;
+}
+.part2 .info .Img{
+/*    border: 1px solid black;*/
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    display: inline-block;
+    background-image: url(img/team-member-1.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.part2 .info .choose{
+/*    border: 1px solid black;*/
+    display: inline-block;
+    height: 60px;
+    width: 110px;
+    float: right;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.part2 .info .choose i{
+    padding-right: 3px;
+}
+.part2 .info .choose i:hover{
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -3.6px;
+    margin-top: -3px;
+    color: #8e7f2b;
+    transition: .5s;
+}
+.part2 .card1{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 40%;
+    width: 35%;
+    top: 20%;
+    left: 55%;
+    color: #0c009f;
+}
+.part2 .card2{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 20%;
+    width: 30%;
+    top: 65%;
+    left: 55%;
+    color: #0c009f
+}
+.part2 .card2 .img{
+/*    border: 1px solid black;*/
+    height: 110px;
+    width: 110px;
+    left: 5%;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.part2 .card2 p{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+.part2 .Ricon{
+    position: absolute;
+    left: 100%;
+    top: 93.4%;
+    background-color: #c9b9ff;
+    width: 30px;
+    height: 25px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.part2 .card2 h3{
+    margin-left: 150px;
+}
+.part3{
+    position: relative;
+    height: 350px;
+    width: 100%;
+/*    border: 1px solid black;*/
+    background-color: #7868e6;
+    color: goldenrod;
+}
+.part3 .card1{
+    position: absolute;
+    height: 70%;
+    width: 17%;
+/*    border: 1px solid black;*/
+    top: 5%;
+    left: 10%;
+}
+.part3 .card2{
+    position: absolute;
+    height: 70%;
+    width: 28%;
+/*    border: 1px solid black;*/
+    top: 5%;
+    left: 35%;
+}
+.part3 .card2 p{
+    margin-top: 40px;
+}
+.part3 .card3 p{
+    margin-top: 40px;
+}
+.part3 .cardA{
+/*    border: 1px solid black;*/
+    height: 85px;
+    width: auto;
+    margin-top: 60px;
+}
+.part3 .cardA .img{
+/*    border: 1px solid black;*/
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(img/team-member-5.jpg);
+    background-size: 100% 100%;
+}
+.part3 .cardA h3{
+    float: right;
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+.part3 .card3{
+    position: absolute;
+    height: 70%;
+    width: 28%;
+/*    border: 1px solid black;*/
+    top: 5%;
+    left: 68%;
+}
+.part4{
+    position: relative;
+    height: 500px;
+    width: 100%;
+/*    border: 1px solid black;*/
+    background-color: #edeef7;
+}
+.part4 .card1{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 75%;
+    width: 18%;
+    left: 12%;
+}
+.part4 .card1 .img{
+    background-image: url(img/team-member-1.png);
+    background-size: 100% 100%;
+}
+.part4 .card2{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 75%;
+    width: 18%;
+    left: 34%;
+}
+.part4 .card2 .img{
+    background-image: url(img/team-member-2.png);
+    background-size: 100% 100%;
+}
+.part4 .card3{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 75%;
+    width: 18%;
+    left: 55%;
+}
+.part4 .card3 .img{
+    background-image: url(img/team-member-3.png);
+    background-size: 100% 100%;
+}
+.part4 .card4{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 75%;
+    width: 18%;
+    left: 76%;
+}
+.part4 .card4 .img{
+    background-image: url(img/team-member-4.png);
+    background-size: 100% 100%;
+}
+.part4 #Ucard{
+    position: absolute;
+    text-align: center;
+    top: 5%;
+}
+.part4 #Ucard:hover{
+    background-image: linear-gradient(white,#c7c7c7,#4e4e4e);
+    box-shadow: 2px 2px 30px rgb(54, 54, 54);
+    border-radius: 20px;
+    
+    transition: .8s;
+}
+.part4 #Ucard:hover ,.part4 #Ucard p:hover{
+    color: #ffe661;
+    transition: .8s;
+}
+.part4 #Dcard{
+    position: absolute;
+    top: 15%;
+    text-align: center;
+}
+.part4 #Dcard:hover{
+    background-image: linear-gradient(white,#c7c7c7,#4e4e4e);
+    box-shadow: 2px 2px 30px rgb(90, 90, 90);
+    border-radius: 20px;
+    
+    transition: .8s;
+}
+.part4 #Dcard:hover ,.part4 #Dcard p:hover{
+    color: #ffe661;
+    transition: .8s;
+}
+.part4 .img{
+    border: 1px solid black;
+    height: 130px;
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.part5{
+    position: relative;
+/*    border: 1px solid black;*/
+    height: 700px;
+    width: 100%;
+    background-color: #edeef7;
+}
+.part5 div{
+    position: absolute;
+    top: 10%;
+    display: inline-block;
+    width: 19%;
+    height: 60%;
+    box-shadow: 2px 2px 5px rgb(54, 54, 54);
+    background-image: linear-gradient(gold,#e2d8a2,#d4c77f,#a08700);
+}
+.part5 div:hover{
+    margin-top: -30px;
+    box-shadow: 2px 2px 20px rgb(54, 54, 54);
+    transition: .5s;
+    border-top: 3px solid blue;
+}
+.part5 .card1{
+    position: absolute;
+    left: 13%;
+    text-align: center;
+}
+.part5 .card2{
+    margin-top: -20px;
+}
+.part5 span{
+    font-size: 40px;
+}
+.part5 .P2{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 150px;
+    margin-left: 48px
+}
+.part5 .P3{
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 200px;
+    margin-left: 25px
+}
+.part5 button{
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    outline: none;
+    background-color: #e7e6e5;
+}
+.part5 button:hover{
+    cursor: pointer;
+    background-color:antiquewhite ;
+    color: bkack;
+}
+.part5 button:focus{
+    background-color: #fff7eb;
+    
+}
+.part5 b{
+    display: block;
+    margin-top: 20px;
+    color: white;
+}
+.part5 .card2{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+.part5 .card3{
+    position: absolute;
+    text-align: center;
+    left: 67%;
+}
+.part5 .Ricon{
+    position: absolute;
+    left: 100%;
+    top: 93.4%;
+    background-color: #eaeaea;
+    width: 30px;
+    height: 25px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.part6{
+/*    border: 1px solid black;*/
+    width: 100%;
+    height: 1500px;
+}
+.part6 .part6-1{
+    position: relative;
+/*    border: 1px solid black;*/
+    height: 1000px;
+    background-image: linear-gradient(white,#e5e5e5,#959595,#959595);
+    color: #81790f;
+}
+.part6 .part6-2{
+/*    border: 1px solid black;*/
+    height: 500px;
+}
+.part6 .part6-1 div{
+    display: inline-block;
+}
+.part6 .part6-1 .card1{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 45%;
+    width: 30%;
+    top: 5%;
+    left: 5%;
+}
+.part6 .part6-1 .card2{
+    position: absolute;
+/*    border: 1px solid black;*/
+    width: 40%;
+    height: 10%;
+    top: 85%;
+    left: 5%;
+    color: #d9c529;
+}
+.part6 .part6-1 .img1{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 50%;
+    width: 35%;
+    left: 55%;
+    top: -10%;
+}
+.part6 .part6-1 video{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.part6 .part6-1 .img2{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 25%;
+    width: 15%;
+    top: 47%;
+    left: 55%;
+}
+.part6 .part6-1 .img3{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 20%;
+    width: 25%;
+    top: 47%;
+    left: 72%;
+}
+.part6 .part6-1 .btn{
+    position: absolute;
+/*    border: 1px solid black;*/
+    height: 5%;
+    width: 20%;
+    top: 87%;
+    left: 70%;
+}
+.part6 .part6-1 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    outline: none;
+}
+.part6 .part6-1 button:hover{
+    background-color: #fcc986;
+    cursor: pointer;
+}
+.part6 .part6-2{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(#959595,#959595,#656565,#656565);
+}
+.part6 .part6-2 div{
+    color: #ff9f9f;
+/*    border: 1px solid black;*/
+    width: 18%;
+    height: 80%;
+    display: inline-block;
+    margin-top: 4%;
+}
+.part6 .part6-2 ul{
+    list-style: none;
+}
+.part6 .part6-2 ul li{
+    margin-top: 20px;
+}
+.part6 .part6-2 ul li a{
+    text-decoration: none;
+    margin-left: -40px;
+    color: rgb(178, 0, 0);
+    color: gold;
+}
+.part6 .part6-2 .card1{
+    position: absolute;
+    left: 5%
+}
+.part6 .part6-2 .card1 h1{
+    margin-top: 60px;
+    font-family: cursive;
+    color: gold;
+}
+.part6 .part6-2 .card2{
+    position: absolute;
+    left: 23%
+}
+.part6 .part6-2 .card2 p{
+    margin-top: 80px;
+    color: gold;
+    
+}
+.part6 .part6-2 .card3{
+    position: absolute;
+    left: 41%;
+}
+.part6 .part6-2 form{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top: 10.5%;
+    display: inline-block;
+    left: 59%;
+    color: gold;
+}
+.part6 .part6-2 form h4{
+    margin-top: 20px;
+}
+.part6 .part6-2 form p{
+    
+}
+.part6 .part6-2 form input{
+    width: 70%;
+    height: 8%;
+    border-radius: 17px;
+    outline: none;
+    margin-top: 35px;
+    display: block;
+    padding-left: 5%;
+}
+.part6 .part6-2 form .inpI{
+    position: absolute;
+    top: 98px;
+    left: 67.1%;
+    width: 35px;
+    height: 25px;
+    background-color: gold;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px
+}
+.part6 .part6-2 form .inpI:hover{
+    background-color: #ffe55a;
+
+}
+.part6 .part6-2 form .P2{
+    display: inline-block;
+    margin-top: 120px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.part6 .part6-2 form .P2 i{
+    color: goldenrod;
+    font-size: 25px;
+}
+.part6 .part6-2 form .P2 i:hover{
+    font-size: 30px;
+    margin: -5px;
+    color: gold;
+}
+.part6 .part6-2 .Ricon{
+    position: absolute;
+    left: 100%;
+    top: 80%;
+    background-color: #696969;
+    width: 30px;
+    height: 25px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.part6 .part6-2 .Ricon i{
+    color: gold;
+}
